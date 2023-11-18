@@ -1,54 +1,57 @@
-        @font-face{
-        font-family: TeleText;
-        src: url(teletext.ttf); 
-        }
-        body{
-            font-family: 'TeleText';
-            background-color: #7a8768;
-        }
-        p{
-            font-family: 'TeleText';
-        }
-        .header{
-            z-index: 1;
-        }
-        .header a{
-            text-align: center;
-            padding: 14px 16px;
-            font-size: 17px;
-            text-decoration: none;
-            color: black;
-            display: block;
-            z-index: 2;
-        }
-        a:hover{
-            opacity: 0.8;
-        }
-        .header ul{
-            list-style-type: none;
-            margin: 0;
-            padding: 5;
-        }
-        .header li{
-            float: left;
-            padding: 14px 25px;
-        }
-        .name{
-            float:center;
-            text-align: center;
-            font-size: 75px;
-            color: white; 
-            padding: 25px 25px 0px;
-        }
-        .pic{
-            float: right;
-            padding: 25px 16px;
-        }
-        .gotch{
-            padding: 0px 16px;
-            color: white;
-        }
-        .bio{
-            padding: 16px 16px;
-            color: black;
-        }
+@font-face{
+    font-family: TeleText;
+    src: url(teletext.ttf); 
+    }
+    body{
+        font-family: 'TeleText';
+        background-color: #7a8768;
+    }
+    p{
+        font-family: 'TeleText';
+    }
+    .header a{
+        text-align: center;
+        padding: 14px 16px;
+        font-size: 17px;
+        text-decoration: none;
+        color: black;
+        display: block;
+    }
+    a:hover{
+        opacity: 0.8;
+    }
+    .header ul{
+        list-style-type: none;
+        margin: 0;
+        padding: 5;
+    }
+    .header li{
+        float: left;
+        padding: 14px 25px;
+        color: black;
+    }
+    .name{
+        float:center;
+        text-align: center;
+        font-size: 75px;
+        color: white; 
+        padding: 25px 25px 0px;
+    }
+    .loopy{
+        position: absolute;
+        left: 0px;
+        top: 80px;
+        z-index: -1;
+    }
+    .pic{
+        float: right;
+        padding: 25px 16px;
+    }
+    .gotch{
+        padding: 0px 16px;
+        color: white;
+    }
+    .bio{
+        padding: 16px 16px;
+        color: black;
+    }
