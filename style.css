@@ -1,6 +1,10 @@
 @font-face{
     font-family: TeleText;
     src: url(teletext.ttf); 
+    src: url(teletext.ttf) format("truetype");
+    src: url(teletext.ttf) format("woff");
+    src: url(teletext.ttf) format("woff2");
+    src: url(teletext.ttf) format("opentype");
     }
     body{
         font-family: 'TeleText';
