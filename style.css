@@ -1,5 +1,5 @@
 @font-face{
-    font-family: TeleText;
+    font-family: TeleText, Courier;
     src: url(teletext.ttf); 
     src: url(teletext.ttf) format("truetype");
     src: url(teletext.ttf) format("woff");
@@ -7,11 +7,11 @@
     src: url(teletext.ttf) format("opentype");
     }
     body{
-        font-family: 'TeleText';
+        font-family: 'TeleText', Courier;
         background-color: #7a8768;
     }
     p{
-        font-family: 'TeleText';
+        font-family: 'TeleText', Courier;
     }
     .header a{
         text-align: center;
